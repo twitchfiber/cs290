@@ -1,0 +1,129 @@
+<!-- CS 290 HW - HTML/CSS -->
+<!DOCTYPE html>
+<head>
+    <title>CS 290 HW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Create a 6x6 table -->
+    <table>
+        <caption>Who wins? Cell content indicates the status of the row entry</caption>
+        <thead>
+            <tr>
+                <th></th><th>Joe<th>Bob<th>John<th>Lucas<th>Jordan
+            </tr>       
+        </thead>
+        <tbody>
+            <tr>
+                <td><i> Movie Title 1 </i><td>Watched<td>Unwatched<td>Loss<td>Win<td>Want to see
+            </tr>
+            <tr>
+                <td><i> Movie Title 2 </i><td>Want to see<td>N/A<td>Watched<td>Want to see<td>Unwatched
+            </tr> 
+            <tr>
+                <td><i> Movie Title 3 </i><td>Want to see<td>Watched<td>N/A<td>Watched<td>Want to see
+            </tr>
+            <tr>
+                <td><i> Movie Title 4 </i><td>Unwatched<td>Win<td>Watched<td>N/A<td>Unwatched
+            </tr>
+            <tr>
+                <td><i> Movie Title 5 </i><td>Unwatched<td>Want to see<td>Watched<td>Unwatched<td>N/A
+            </tr>
+            <tfoot>
+                <td colspan="2">Footer 1</td>
+                <td colspan="4">Footer 2</td>
+            </tfoot>      
+        </tbody>    
+    </table>
+
+    <!-- Creat a list with at least 3 items -->
+    <dl>
+        <dt>Name</dt>
+        <dd>Frank</dd>
+        <dt>Gender</dt>
+        <dd>Male</dd>
+        <dt>Class</dt>
+        <dd>CS 290</dd>
+    </dl>
+
+    <!-- Create a div -->
+    <div class="outer-content">
+        <div class="inner-content">
+            <span>Inner space</span>
+        </div>
+    </div>
+</body>
+
+<!-- Get Form -->
+<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="GET">
+    <fieldset>
+        <legend>Some GET Data</legend>
+        <fieldset>
+            <label> Text here:
+                <input type="text" name="text_input:" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label> Number here:
+                <input type="number" name="numerical_input:" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label> Password here:
+                <input type="password" name="password_input:" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label> Select between:
+                <p>
+                    <input type="radio" name="candy:" value="snickers">Snickers</label>
+                    <br/><br/>
+                    <input type="radio" name="candy:" value="skittles">Skittles</label>
+                    <br/><br/>
+                    <input type="radio" name="candy:" value="mentos">Mentos</label>
+                </p>
+                <input type="submit" value="Submit">
+            </label>
+        </fieldset>
+    </fieldset>
+</form>
+<br/>
+<!-- Post Form -->
+<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="POST">
+    <fieldset>
+        <legend>Some POST Data</legend>
+        <fieldset>
+            <label> Text here:
+                <input type="text" name="text_input:" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label> Number here:
+                <input type="number" name="numerical_input:" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label> Password here:
+                <input type="password" name="password_input:" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label> Select between:
+                <p>
+                    <input type="radio" name="candy:" value="snickers">Snickers</label>
+                    <br/><br/>
+                    <input type="radio" name="candy:" value="skittles">Skittles</label>
+                    <br/><br/>
+                    <input type="radio" name="candy:" value="mentos">Mentos</label>
+                </p>
+                <input type="submit" value="Submit">
+            </label>
+        </fieldset>
+    </fieldset>
+</form>
