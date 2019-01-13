@@ -1,1 +1,1 @@
-# A readme for CS 290
+# CS 290
